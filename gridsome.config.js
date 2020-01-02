@@ -5,6 +5,17 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
+  siteName: 'survey.seike460.com',
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'survey/*.md',
+        typeName: 'SurveyPage',
+      },
+      templates: {
+        SurveyPage: '/survey/:conference'
+      }
+    }
+  ]
 }
