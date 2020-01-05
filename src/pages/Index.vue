@@ -24,7 +24,7 @@
 
 <page-query>
 query posts {
-  allSurveyPage {
+  allSurveyPage (sortBy: "datetime", order: DESC) {
     edges {
       node {
         title
