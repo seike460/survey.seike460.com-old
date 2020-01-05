@@ -2,7 +2,7 @@
 conference: PHPerKaigi 2020
 title: Serverless Pattern
 datetime: 2020/02/11 15:00
-place: PHPerKaigi 2020
+place: 練馬区立区民・産業プラザ Coconeriホール
 ---
 
 Serverlessは一般化してきています。
